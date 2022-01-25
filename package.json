@@ -1,0 +1,30 @@
+{
+  "name": "web3_helloWorld",
+  "version": "1.0.0",
+  "description": "hello world smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theTejMahal/web3_helloWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theTejMahal/web3_helloWorld/issues"
+  },
+  "homepage": "https://github.com/theTejMahal/web3_helloWorld#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.0"
+  }
+}
